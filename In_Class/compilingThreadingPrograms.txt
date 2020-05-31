@@ -1,0 +1,14 @@
+***How to compile C/C++ programs with std::thread and openMP in Linux.
+***How to compile C/C++ programs with std::thread and openMP in Linux.
+
+To compile programs with std::thread support, please use:
+
+g++ -std=c++11 prog1.cpp -lpthread -o prog1g
+
+For openMP support, please use:
+
+ g++ -fopenmp prog1.cpp -o prog1
+
+For programs that use both (std::thread and openMP pragmas):
+
+g++ -std=c++11 prog1.cpp -lpthread -o prog1 -fopenmp

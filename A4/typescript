@@ -1,0 +1,408 @@
+Script started on 2020-03-28 13:11:45-0500
+]0;linux@myLinuxMachine: ~/Desktop/OS_Class/A4[01;32mlinux@myLinuxMachine[00m:[01;34m~/Desktop/OS_Class/A4[00m$ ./shell
+
+Begin command: ps -aux | less
+[?1049h[22;0;0t[?1h=USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 225776  9640 ?        Ss   10:19   0:05 /sbin/init spla sh
+root         2  0.0  0.0      0     0 ?        S    10:19   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   10:19   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   10:19   0:00 [rcu_par_gp]
+root         6  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/0:0H]
+root         9  0.0  0.0      0     0 ?        I<   10:19   0:00 [mm_percpu_wq]
+root        10  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/0]
+root        11  0.0  0.0      0     0 ?        I    10:19   0:01 [rcu_sched]
+root        12  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/0]
+root        13  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/0]
+root        14  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/0]
+root        15  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/1]
+root        16  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/1]
+root        17  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/1]
+root        18  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/1]
+root        20  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/1:0H-k b]
+root        21  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/2]
+root        22  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/2]
+root        23  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/2]
+root        24  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/2]
+:[K[K [KESCESC[KOO[KBB[Kroot        26  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/2:0H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot        27  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/3]
+:[K[K [KESCESC[KOO[KBB[Kroot        28  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/3]
+:[K[K [KESCESC[KOO[KBB[Kroot        29  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/3]
+:[K[K [KESCESC[KOO[KBB[Kroot        30  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/3]
+:[K[K [KESCESC[KOO[KBB[Kroot        32  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/3:0H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot        33  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/4]
+:[K[K [KESCESC[KOO[KBB[Kroot        34  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/4]
+:[K[K [KESCESC[KOO[KBB[Kroot        35  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/4]
+:[K[K [KESCESC[KOO[KBB[Kroot        36  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/4]
+:[K[K [KESCESC[KOO[KBB[Kroot        38  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/4:0H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot        39  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/5]
+:[K[K [KESCESC[KOO[KBB[Kroot        40  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/5]
+:[K[K [KESCESC[KOO[KBB[Kroot        41  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/5]
+:[K[K [KESCESC[KOO[KBB[Kroot        42  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/5]
+:[K[K [KESCESC[KOO[KBB[Kroot        44  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/5:0H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot        45  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/6]
+:[K[K [KESCESC[KOO[KBB[Kroot        46  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/6]
+:[K[K [KESCESC[KOO[KBB[Kroot        47  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/6]
+:[K[K [KESCESC[KOO[KBB[Kroot        48  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/6]
+:[K[K [KESCESC[KOO[KBB[Kroot        50  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/6:0H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot        51  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/7]
+:[K[K [KESCESC[KOO[KBB[Kroot        52  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/7]
+:[K[K [KESCESC[KOO[KBB[Kroot        53  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/7]
+:[K[K [KESCESC[KOO[KBB[Kroot        54  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/7]
+:[K[K [KESCESC[KOO[KBB[Kroot        56  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/7:0H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot        57  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/8]
+:[K[K [KESCESC[KOO[KBB[Kroot        58  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/8]
+:[K[K [KESCESC[KOO[KBB[Kroot        59  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/8]
+:[K[K [KESCESC[KOO[KBB[Kroot        60  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/8]
+:[K[K [KESCESC[KOO[KBB[Kroot        62  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/8:0H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot        63  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/9]
+:[K[K [KESCESC[KOO[KBB[Kroot        64  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/9]
+:[K[K [KESCESC[KOO[KBB[Kroot        65  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/9]
+:[K[K [KESCESC[KOO[KBB[Kroot        66  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/9]
+:[K[K [KESCESC[KOO[KBB[Kroot        68  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/9:0H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot        69  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/10]
+:[K[K [KESCESC[KOO[KBB[Kroot        70  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/10 :[K[K [KESCESC[KOO[KBB[K]
+:[K[K [KESCESC[KOO[KBB[Kroot        71  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/10]
+:[K[K [KESCESC[KOO[KBB[Kroot        72  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/10]
+:[K[K [KESCESC[KOO[KBB[Kroot        74  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/10:0H- :[K[K [KESCESC[KOO[KBB[Kk]
+:[K[K [KESCESC[KOO[KBB[Kroot        75  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/11]
+:[K[K [KESCESC[KOO[KBB[Kroot        76  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/11 :[K[K [KESCESC[KOO[KBB[K]
+:[K[K [KESCESC[KOO[KBB[Kroot        77  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/11]
+:[K[K [KESCESC[KOO[KBB[Kroot        78  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/11]
+:[K[K [KESCESC[KOO[KBB[Kroot        80  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/11:0H- :[K[K [KESCESC[KOO[KBB[Kk]
+:[K[K [KESCESC[KOO[KBB[Kroot        81  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/12]
+:[K[K [KESCESC[KOO[KBB[Kroot        82  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/12 :[K[K [KESCESC[KOO[KBB[K]
+:[K[K [KESCESC[KOO[KBB[Kroot        83  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/12]
+:[K[K [KESCESC[KOO[KBB[Kroot        84  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/12]
+:[K[K [KESCESC[KOO[KBB[Kroot        86  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/12:0H- :[K[K [KESCESC[KOO[KBB[Kk]
+:[K[K [KESCESC[KOO[KBB[Kroot        87  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/13]
+:[K[K [KESCESC[KOO[KBB[Kroot        88  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/13 :[K[K [KESCESC[KOO[KBB[K]
+:[K[K [KESCESC[KOO[KBB[Kroot        89  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/13]
+:[K[K [KESCESC[KOO[KBB[Kroot        90  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/13]
+:[K[K [KESCESC[KOO[KBB[Kroot        92  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/13:0H- :[K[K [KESCESC[KOO[KBB[Kk]
+:[K[K [KESCESC[KOO[KBB[Kroot        93  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/14]
+:[K[K [KESCESC[KOO[KBB[Kroot        94  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/14 :[K[K [KESCESC[KOO[KBB[K]
+:[K[K [KESCESC[KOO[KBB[Kroot        95  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/14]
+:[K[K [KESCESC[KOO[KBB[Kroot        96  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/14]
+:[K[K [KESCESC[KOO[KBB[Kroot        98  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/14:0H- :[K[K [KESCESC[KOO[KBB[Kk]
+:[K[K [KESCESC[KOO[KBB[Kroot        99  0.0  0.0      0     0 ?        S    10:19   0:00 [cpuhp/15]
+:[K[K [KESCESC[KOO[KBB[Kroot       100  0.0  0.0      0     0 ?        S    10:19   0:00 [idle_inject/15 :[K[K [KESCESC[KOO[KBB[K]
+:[K[K [KESCESC[KOO[KBB[Kroot       101  0.0  0.0      0     0 ?        S    10:19   0:00 [migration/15]
+:[K[K [KESCESC[KOO[KBB[Kroot       102  0.0  0.0      0     0 ?        S    10:19   0:00 [ksoftirqd/15]
+:[K[K [KESCESC[KOO[KBB[Kroot       104  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/15:0H- :[K[K [KESCESC[KOO[KBB[Kk]
+:[K[K [KESCESC[KOO[KBB[Kroot       105  0.0  0.0      0     0 ?        S    10:19   0:00 [kdevtmpfs]
+:[K[K [KESCESC[KOO[KBB[Kroot       106  0.0  0.0      0     0 ?        I<   10:19   0:00 [netns]
+:[K[K [KESCESC[KOO[KBB[Kroot       107  0.0  0.0      0     0 ?        S    10:19   0:00 [rcu_tasks_kthr :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot       108  0.0  0.0      0     0 ?        S    10:19   0:00 [kauditd]
+:[K[K [KESCESC[KOO[KBB[Kroot       113  0.0  0.0      0     0 ?        S    10:19   0:00 [khungtaskd]
+:[K[K [KESCESC[KOO[KBB[Kroot       114  0.0  0.0      0     0 ?        S    10:19   0:00 [oom_reaper]
+:[K[K [KESCESC[KOO[KBB[Kroot       115  0.0  0.0      0     0 ?        I<   10:19   0:00 [writeback]
+:[K[K [KESCESC[KOO[KBB[Kroot       116  0.0  0.0      0     0 ?        S    10:19   0:00 [kcompactd0]
+:[K[K [KESCESC[KOO[KBB[Kroot       117  0.0  0.0      0     0 ?        SN   10:19   0:00 [ksmd]
+:[K[K [KESCESC[KOO[KBB[Kroot       118  0.0  0.0      0     0 ?        SN   10:19   0:00 [khugepaged]
+:[K[K [KESCESC[KOO[KBB[Kroot       210  0.0  0.0      0     0 ?        I<   10:19   0:00 [kintegrityd]
+:[K[K [KESCESC[KOO[KBB[Kroot       211  0.0  0.0      0     0 ?        I<   10:19   0:00 [kblockd]
+:[K[K [KESCESC[KOO[KBB[Kroot       212  0.0  0.0      0     0 ?        I<   10:19   0:00 [blkcg_punt_bio :[K[K [KESCESC[KOO[KBB[K]
+:[K[K [KESCESC[KOO[KBB[Kroot       214  0.0  0.0      0     0 ?        I<   10:19   0:00 [tpm_dev_wq]
+:[K[K [KESCESC[KOO[KBB[Kroot       215  0.0  0.0      0     0 ?        I<   10:19   0:00 [ata_sff]
+:[K[K [KESCESC[KOO[KBB[Kroot       216  0.0  0.0      0     0 ?        I<   10:19   0:00 [md]
+:[K[K [KESCESC[KOO[KBB[Kroot       217  0.0  0.0      0     0 ?        I<   10:19   0:00 [edac-poller]
+:[K[K [KESCESC[KOO[KBB[Kroot       218  0.0  0.0      0     0 ?        I<   10:19   0:00 [devfreq_wq]
+:[K[K [KESCESC[KOO[KBB[Kroot       219  0.0  0.0      0     0 ?        S    10:19   0:00 [watchdogd]
+:[K[K [KESCESC[KOO[KBB[Kroot       220  0.0  0.0      0     0 ?        S    10:19   0:00 [irq/26-AMD-Vi]
+:[K[K [KESCESC[KOO[KBB[Kroot       223  0.0  0.0      0     0 ?        S    10:19   0:00 [kswapd0]
+:[K[K [KESCESC[KOO[KBB[Kroot       224  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/u65:0]
+:[K[K [KESCESC[KOO[KBB[Kroot       225  0.0  0.0      0     0 ?        S    10:19   0:00 [ecryptfs-kthre :[K[K [KESCESC[KOO[KBB[Ka]
+:[K[K [KESCESC[KOO[KBB[Kroot       228  0.0  0.0      0     0 ?        I<   10:19   0:00 [kthrotld]
+:[K[K [KESCESC[KOO[KBB[Kroot       242  0.0  0.0      0     0 ?        I<   10:19   0:00 [acpi_thermal_p :[K[K [KESCESC[KOO[KBB[Km]
+:[K[K [KESCESC[KOO[KBB[Kroot       243  0.0  0.0      0     0 ?        I<   10:19   0:00 [ipv6_addrconf]
+:[K[K [KESCESC[KOO[KBB[Kroot       254  0.0  0.0      0     0 ?        I<   10:19   0:00 [kstrp]
+:[K[K [KESCESC[KOO[KBB[Kroot       273  0.0  0.0      0     0 ?        I<   10:19   0:00 [charger_manage :[K[K [KESCESC[KOO[KBB[Kr]
+:[K[K [KESCESC[KOO[KBB[Kroot       336  0.0  0.0      0     0 ?        S    10:19   0:00 [scsi_eh_0]
+:[K[K [KESCESC[KOO[KBB[Kroot       337  0.0  0.0      0     0 ?        I<   10:19   0:00 [scsi_tmf_0]
+:[K[K [KESCESC[KOO[KBB[Kroot       338  0.0  0.0      0     0 ?        S    10:19   0:00 [scsi_eh_1]
+:[K[K [KESCESC[KOO[KBB[Kroot       339  0.0  0.0      0     0 ?        I<   10:19   0:00 [scsi_tmf_1]
+:[K[K [KESCESC[KOO[KBB[Kroot       340  0.0  0.0      0     0 ?        S    10:19   0:00 [scsi_eh_2]
+:[K[K [KESCESC[KOO[KBB[Kroot       341  0.0  0.0      0     0 ?        I<   10:19   0:00 [scsi_tmf_2]
+:[K[K [KESCESC[KOO[KBB[Kroot       342  0.0  0.0      0     0 ?        S    10:19   0:00 [scsi_eh_3]
+:[K[K [KESCESC[KOO[KBB[Kroot       343  0.0  0.0      0     0 ?        I<   10:19   0:00 [scsi_tmf_3]
+:[K[K [KESCESC[KOO[KBB[Kroot       345  0.0  0.0      0     0 ?        S    10:19   0:00 [scsi_eh_4]
+:[K[K [KESCESC[KOO[KBB[Kroot       346  0.0  0.0      0     0 ?        I<   10:19   0:00 [scsi_tmf_4]
+:[K[K [KESCESC[KOO[KBB[Kroot       347  0.0  0.0      0     0 ?        S    10:19   0:00 [scsi_eh_5]
+:[K[K [KESCESC[KOO[KBB[Kroot       348  0.0  0.0      0     0 ?        I<   10:19   0:00 [scsi_tmf_5]
+:[K[K [KESCESC[KOO[KBB[Kroot       349  0.0  0.0      0     0 ?        S    10:19   0:00 [scsi_eh_6]
+:[K[K [KESCESC[KOO[KBB[Kroot       350  0.0  0.0      0     0 ?        I<   10:19   0:00 [scsi_tmf_6]
+:[K[K [KESCESC[KOO[KBB[Kroot       351  0.0  0.0      0     0 ?        S    10:19   0:00 [scsi_eh_7]
+:[K[K [KESCESC[KOO[KBB[Kroot       352  0.0  0.0      0     0 ?        I<   10:19   0:00 [scsi_tmf_7]
+:[K[K [KESCESC[KOO[KBB[Kroot       353  0.0  0.0      0     0 ?        S    10:19   0:00 [scsi_eh_8]
+:[K[K [KESCESC[KOO[KBB[Kroot       354  0.0  0.0      0     0 ?        I<   10:19   0:00 [scsi_tmf_8]
+:[K[K [KESCESC[KOO[KBB[Kroot       355  0.0  0.0      0     0 ?        S    10:19   0:00 [scsi_eh_9]
+:[K[K [KESCESC[KOO[KBB[Kroot       356  0.0  0.0      0     0 ?        I<   10:19   0:00 [scsi_tmf_9]
+:[K[K [KESCESC[KOO[KBB[Kroot       361  0.0  0.0      0     0 ?        S    10:19   0:00 [scsi_eh_10]
+:[K[K [KESCESC[KOO[KBB[Kroot       362  0.0  0.0      0     0 ?        I<   10:19   0:00 [scsi_tmf_10]
+:[K[K [KESCESC[KOO[KBB[Kroot       366  0.0  0.0      0     0 ?        S    10:19   0:00 [scsi_eh_11]
+:[K[K [KESCESC[KOO[KBB[Kroot       367  0.0  0.0      0     0 ?        I<   10:19   0:00 [scsi_tmf_11]
+:[K[K [KESCESC[KOO[KBB[Kroot       388  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/5:1H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot       389  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/7:1H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot       390  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/4:1H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot       416  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/1:1H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot       419  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/14:1H- :[K[K [KESCESC[KOO[KBB[Kk]
+:[K[K [KESCESC[KOO[KBB[Kroot       420  0.0  0.0      0     0 ?        S    10:19   0:00 [jbd2/sdc2-8]
+:[K[K [KESCESC[KOO[KBB[Kroot       421  0.0  0.0      0     0 ?        I<   10:19   0:00 [ext4-rsv-conve :[K[K [KESCESC[KOO[KBB[Kr]
+:[K[K [KESCESC[KOO[KBB[Kroot       434  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/9:1H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot       435  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/10:1H- :[K[K [KESCESC[KOO[KBB[Kk]
+:[K[K [KESCESC[KOO[KBB[Kroot       437  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/11:1H- :[K[K [KESCESC[KOO[KBB[Kk]
+:[K[K [KESCESC[KOO[KBB[Kroot       441  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/13:1H- :[K[K [KESCESC[KOO[KBB[Kk]
+:[K[K [KESCESC[KOO[KBB[Kroot       455  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/0:1H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot       456  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/3:1H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot       457  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/8:1H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot       459  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/2:1H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot       461  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/12:1H- :[K[K [KESCESC[KOO[KBB[Kk]
+:[K[K [KESCESC[KOO[KBB[Kroot       468  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/15:1H- :[K[K [KESCESC[KOO[KBB[Kk]
+:[K[K [KESCESC[KOO[KBB[Kroot       473  0.0  0.0      0     0 ?        I<   10:19   0:00 [kworker/6:1H-k :[K[K [KESCESC[KOO[KBB[Kb]
+:[K[K [KESCESC[KOO[KBB[Kroot       475  0.0  0.4 166920 66140 ?        S<s  10:19   0:00 /lib/systemd/sy :[K[K [KESCESC[KOO[KBB[Kstemd-journald
+:[K[K [KESCESC[KOO[KBB[Kroot       499  0.0  0.0  48556  6700 ?        Ss   10:19   0:00 /lib/systemd/sy :[K[K [KESCESC[KOO[KBB[Kstemd-udevd
+:[K[K [KESCESC[KOO[KBB[Kroot       503  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop0]
+:[K[K [KESCESC[KOO[KBB[Kroot       519  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop1]
+:[K[K [KESCESC[KOO[KBB[Kroot       524  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop2]
+:[K[K [KESCESC[KOO[KBB[Kroot       525  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop3]
+:[K[K [KESCESC[KOO[KBB[Kroot       526  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop4]
+:[K[K [KESCESC[KOO[KBB[Kroot       527  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop5]
+:[K[K [KESCESC[KOO[KBB[Kroot       575  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop6]
+:[K[K [KESCESC[KOO[KBB[Kroot       577  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop7]
+:[K[K [KESCESC[KOO[KBB[Kroot       579  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop8]
+:[K[K [KESCESC[KOO[KBB[Kroot       587  0.0  0.0      0     0 ?        S    10:19   0:00 [ccp-1-q0]
+:[K[K [KESCESC[KOO[KBB[Kroot       588  0.0  0.0      0     0 ?        S    10:19   0:00 [ccp-1-q1]
+:[K[K [KESCESC[KOO[KBB[Kroot       589  0.0  0.0      0     0 ?        S    10:19   0:00 [ccp-1-q2]
+:[K[K [KESCESC[KOO[KBB[Kroot       590  0.0  0.0      0     0 ?        S    10:19   0:00 [ccp-1-q3]
+:[K[K [KESCESC[KOO[KBB[Kroot       591  0.0  0.0      0     0 ?        S    10:19   0:00 [ccp-1-q4]
+:[K[K [KESCESC[KOO[KBB[Kroot       609  0.0  0.0      0     0 ?        I<   10:19   0:00 [cryptd]
+:[K[K [KESCESC[KOO[KBB[Kroot       614  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop9]
+:[K[K [KESCESC[KOO[KBB[Kroot       639  0.0  0.0      0     0 ?        I<   10:19   0:00 [cfg80211]
+:[K[K [KESCESC[KOO[KBB[Kroot       664  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop10]
+:[K[K [KESCESC[KOO[KBB[Kroot       702  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop11]
+:[K[K [KESCESC[KOO[KBB[Kroot       708  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop12]
+:[K[K [KESCESC[KOO[KBB[Kroot       710  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop13]
+:[K[K [KESCESC[KOO[KBB[Kroot       711  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop14]
+:[K[K [KESCESC[KOO[KBB[Kroot       715  0.0  0.0      0     0 ?        I<   10:19   0:00 [nvkm-disp]
+:[K[K [KESCESC[KOO[KBB[Kroot       716  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop15]
+:[K[K [KESCESC[KOO[KBB[Kroot       737  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop16]
+:[K[K [KESCESC[KOO[KBB[Kroot       739  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop17]
+:[K[K [KESCESC[KOO[KBB[Kroot       742  0.0  0.0      0     0 ?        I<   10:19   0:00 [ttm_swap]
+:[K[K [KESCESC[KOO[KBB[Kroot       744  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop18]
+:[K[K [KESCESC[KOO[KBB[Kroot       745  0.0  0.0      0     0 ?        S<   10:19   0:00 [loop19]
+:[K[K [KESCESC[KOO[KBB[Ksystemd+  1056  0.0  0.0  70892  6436 ?        Ss   10:19   0:00 /lib/systemd/sy :[K[K [KESCESC[KOO[KBB[Kstemd-resolved
+:[K[K [KESCESC[KOO[KBB[Ksystemd+  1057  0.0  0.0 146112  3376 ?        Ssl  10:19   0:00 /lib/systemd/sy :[K[K [KESCESC[KOO[KBB[Kstemd-timesyncd
+:[K[K [KESCESC[KOO[KBB[Kroot      1240  0.0  0.0  38424  3116 ?        Ss   10:19   0:00 /usr/sbin/cron  :[K[K [KESCESC[KOO[KBB[K-f
+:[K[K [KESCESC[KOO[KBB[Kroot      1244  0.0  0.0 110524  3500 ?        Ssl  10:19   0:00 /usr/sbin/irqba :[K[K [KESCESC[KOO[KBB[Klance --foreground
+:[K[K [KESCESC[KOO[KBB[Kroot      1249  0.0  0.0   4548   776 ?        Ss   10:19   0:00 /usr/sbin/acpid
+:[K[K [KESCESC[KOO[KBB[Kroot      1259  0.0  0.0 791304 14420 ?        Ssl  10:19   0:02 /usr/lib/udisks :[K[K [KESCESC[KOO[KBB[K2/udisksd
+:[K[K [KESCESC[KOO[KBB[Kroot      1260  0.0  0.0 294740  6976 ?        Ssl  10:19   0:00 /usr/lib/accoun :[K[K [KESCESC[KOO[KBB[Ktsservice/accounts-daemon
+:[K[K [KESCESC[KOO[KBB[Kroot      1262  0.0  0.1 2635732 25348 ?       Ssl  10:19   0:01 /usr/lib/snapd/ :[K[K [KESCESC[KOO[KBB[Ksnapd
+:[K[K [KESCESC[KOO[KBB[Ksyslog    1264  0.0  0.0 263032  4896 ?        Ssl  10:19   0:00 /usr/sbin/rsysl :[K[K [KESCESC[KOO[KBB[Kogd -n
+:[K[K [KESCESC[KOO[KBB[Kavahi     1274  0.0  0.0  47256  3284 ?        Ss   10:19   0:00 avahi-daemon: r :[K[K [KESCESC[KOO[KBB[Kunning [myLinuxMachine.local]
+:[K[K [KESCESC[KOO[KBB[Kroot      1277  0.0  0.0  70724  6252 ?        Ss   10:19   0:00 /lib/systemd/sy :[K[K [KESCESC[KOO[KBB[Kstemd-logind
+:[K[K [KESCESC[KOO[KBB[Kmessage+  1280  0.0  0.0  51636  6068 ?        Ss   10:19   0:01 /usr/bin/dbus-d :[K[K [KESCESC[KOO[KBB[Kaemon --system --address=systemd: --nofork --nopidfile --systemd-activation --sy :[K[K [KESCESC[KOO[KBB[Kslog-only
+:[K[K [KESCESC[KOO[KBB[Kavahi     1298  0.0  0.0  47072   340 ?        S    10:19   0:00 avahi-daemon: c :[K[K [KESCESC[KOO[KBB[Khroot helper
+:[K[K [KESCESC[KOO[KBB[Kroot      1334  0.0  0.0  45476  7880 ?        Ss   10:19   0:00 /sbin/wpa_suppl :[K[K [KESCESC[KOO[KBB[Kicant -u -s -O /run/wpa_supplicant
+:[K[K [KESCESC[KOO[KBB[Kroot      1339  0.0  0.0 360720  9420 ?        Ssl  10:19   0:00 /usr/sbin/Modem :[K[K [KESCESC[KOO[KBB[KManager --filter-policy=strict
+:[K[K [KESCESC[KOO[KBB[Kroot      1341  0.0  0.1 177636 17312 ?        Ssl  10:19   0:00 /usr/bin/python :[K[K [KESCESC[KOO[KBB[K3 /usr/bin/networkd-dispatcher --run-startup-triggers
+:[K[K [KESCESC[KOO[KBB[Kroot      1343  0.0  0.1 565964 16852 ?        Ssl  10:19   0:01 /usr/sbin/Netwo :[K[K [KESCESC[KOO[KBB[KrkManager --no-daemon
+:[K[K [KESCESC[KOO[KBB[Kroot      1349  0.0  0.0 303416  9944 ?        Ssl  10:19   0:00 /usr/lib/policy :[K[K [KESCESC[KOO[KBB[Kkit-1/polkitd --no-debug
+:[K[K [KESCESC[KOO[KBB[Kcolord    1366  0.0  0.0 325016 14192 ?        Ssl  10:19   0:00 /usr/lib/colord :[K[K [KESCESC[KOO[KBB[K/colord
+:[K[K [KESCESC[KOO[KBB[Kroot      1384  0.0  0.0 308188  7972 ?        Ssl  10:19   0:00 /usr/sbin/gdm3
+:[K[K [KESCESC[KOO[KBB[Kroot      1471  0.0  0.1 194352 20004 ?        Ssl  10:19   0:00 /usr/bin/python :[K[K [KESCESC[KOO[KBB[K3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+:[K[K [KESCESC[KOO[KBB[Kroot      1473  0.0  0.0 261552  8176 ?        Sl   10:19   0:00 gdm-session-wor :[K[K [KESCESC[KOO[KBB[Kker [pam/gdm-launch-environment]
+:[K[K [KESCESC[KOO[KBB[Kgdm       1484  0.0  0.0  77296  8568 ?        Ss   10:19   0:00 /lib/systemd/sy :[K[K [KESCESC[KOO[KBB[Kstemd --user
+:[K[K [KESCESC[KOO[KBB[Kgdm       1485  0.0  0.0 114384  2952 ?        S    10:19   0:00 (sd-pam)
+:[K[K [KESCESC[KOO[KBB[Kgdm       1500  0.0  0.0 197796  5392 tty1     Ssl+ 10:19   0:00 /usr/lib/gdm3/g :[K[K [KESCESC[KOO[KBB[Kdm-wayland-session gnome-session --autostart /usr/share/gdm/greeter/autostart
+:[K[K [KESCESC[KOO[KBB[Kgdm       1502  0.0  0.0  50364  4536 ?        Ss   10:19   0:00 /usr/bin/dbus-d :[K[K [KESCESC[KOO[KBB[Kaemon --session --address=systemd: --nofork --nopidfile --systemd-activation --s :[K[K [KESCESC[KOO[KBB[Kyslog-only
+:[K[K [KESCESC[KOO[KBB[Kgdm       1504  0.0  0.0 558968 13784 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksession/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+:[K[K [KESCESC[KOO[KBB[Kgdm       1512  1.1  1.3 5484576 217096 tty1   Sl+  10:19   1:55 /usr/bin/gnome- :[K[K [KESCESC[KOO[KBB[Kshell
+:[K[K [KESCESC[KOO[KBB[Kroot      1520  0.0  0.0 322576  8788 ?        Ssl  10:19   0:00 /usr/lib/upower :[K[K [KESCESC[KOO[KBB[K/upowerd
+:[K[K [KESCESC[KOO[KBB[Kgdm       1597  0.0  0.2 1399368 39420 tty1    Sl+  10:19   0:00 /usr/bin/Xwayla :[K[K [KESCESC[KOO[KBB[Knd :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+:[K[K [KESCESC[KOO[KBB[Kgdm       1616  0.0  0.0 349348  6440 ?        Ssl  10:19   0:00 /usr/lib/at-spi :[K[K [KESCESC[KOO[KBB[K2-core/at-spi-bus-launcher
+:[K[K [KESCESC[KOO[KBB[Kgdm       1621  0.0  0.0  49924  3788 ?        S    10:19   0:00 /usr/bin/dbus-d :[K[K [KESCESC[KOO[KBB[Kaemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --pr :[K[K [KESCESC[KOO[KBB[Kint-address 3
+:[K[K [KESCESC[KOO[KBB[Kgdm       1623  0.0  0.0 220764  6840 ?        Sl   10:19   0:00 /usr/lib/at-spi :[K[K [KESCESC[KOO[KBB[K2-core/at-spi2-registryd --use-gnome-session
+:[K[K [KESCESC[KOO[KBB[Kgdm       1627  0.0  0.0 1522684 12340 ?       Ssl  10:19   0:00 /usr/bin/pulsea :[K[K [KESCESC[KOO[KBB[Kudio --daemonize=no
+:[K[K [KESCESC[KOO[KBB[Krtkit     1628  0.0  0.0 183504  3068 ?        SNsl 10:19   0:00 /usr/lib/rtkit/ :[K[K [KESCESC[KOO[KBB[Krtkit-daemon
+:[K[K [KESCESC[KOO[KBB[Kgdm       1658  0.0  0.0 361468  7620 tty1     Sl   10:19   0:00 ibus-daemon --x :[K[K [KESCESC[KOO[KBB[Kim --panel disable
+:[K[K [KESCESC[KOO[KBB[Kgdm       1661  0.0  0.0 280744  5804 tty1     Sl   10:19   0:00 /usr/lib/ibus/i :[K[K [KESCESC[KOO[KBB[Kbus-dconf
+:[K[K [KESCESC[KOO[KBB[Kgdm       1664  0.0  0.3 1668352 50012 tty1    Sl   10:19   0:00 /usr/lib/ibus/i :[K[K [KESCESC[KOO[KBB[Kbus-x11 --kill-daemon
+:[K[K [KESCESC[KOO[KBB[Kgdm       1666  0.0  0.0 278556  6024 ?        Sl   10:19   0:00 /usr/lib/ibus/i :[K[K [KESCESC[KOO[KBB[Kbus-portal
+:[K[K [KESCESC[KOO[KBB[Kgdm       1674  0.0  0.0 271560  5060 ?        Ssl  10:19   0:00 /usr/libexec/xd :[K[K [KESCESC[KOO[KBB[Kg-permission-store
+:[K[K [KESCESC[KOO[KBB[Kroot      1700  0.0  0.0 296872  6888 ?        Ssl  10:19   0:00 /usr/lib/x86_64 :[K[K [KESCESC[KOO[KBB[K-linux-gnu/boltd
+:[K[K [KESCESC[KOO[KBB[Kroot      1701  0.0  0.2 449260 39000 ?        Ssl  10:19   0:05 /usr/lib/packag :[K[K [KESCESC[KOO[KBB[Kekit/packagekitd
+:[K[K [KESCESC[KOO[KBB[Kgdm       1702  0.0  0.1 494572 22340 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-xsettings
+:[K[K [KESCESC[KOO[KBB[Kgdm       1707  0.0  0.0 278152  5840 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-a11y-settings
+:[K[K [KESCESC[KOO[KBB[Kgdm       1709  0.0  0.1 343664 20344 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-clipboard
+:[K[K [KESCESC[KOO[KBB[Kgdm       1712  0.0  0.1 603716 23768 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-color
+:[K[K [KESCESC[KOO[KBB[Kgdm       1715  0.0  0.0 393716 13700 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-datetime
+:[K[K [KESCESC[KOO[KBB[Kgdm       1716  0.0  0.0 283740  5316 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-housekeeping
+:[K[K [KESCESC[KOO[KBB[Kgdm       1720  0.0  0.1 506592 21508 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-keyboard
+:[K[K [KESCESC[KOO[KBB[Kgdm       1723  0.0  0.1 866760 23568 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-media-keys
+:[K[K [KESCESC[KOO[KBB[Kgdm       1730  0.0  0.0 201996  4680 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-mouse
+:[K[K [KESCESC[KOO[KBB[Kgdm       1733  0.0  0.1 517344 22500 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-power
+:[K[K [KESCESC[KOO[KBB[Kgdm       1734  0.0  0.0 267012  8632 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-print-notifications
+:[K[K [KESCESC[KOO[KBB[Kgdm       1737  0.0  0.0 202016  4744 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-rfkill
+:[K[K [KESCESC[KOO[KBB[Kgdm       1744  0.0  0.0 275732  4944 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-screensaver-proxy
+:[K[K [KESCESC[KOO[KBB[Kgdm       1747  0.0  0.0 305112  8392 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-sharing
+:[K[K [KESCESC[KOO[KBB[Kgdm       1749  0.0  0.0 377932  7864 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-smartcard
+:[K[K [KESCESC[KOO[KBB[Kgdm       1752  0.0  0.0 332860  8016 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-sound
+:[K[K [KESCESC[KOO[KBB[Kgdm       1756  0.0  0.1 428844 21688 tty1     Sl+  10:19   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-wacom
+:[K[K [KESCESC[KOO[KBB[Kgdm       1786  0.0  0.0 204888  5904 tty1     Sl   10:19   0:00 /usr/lib/ibus/i :[K[K [KESCESC[KOO[KBB[Kbus-engine-simple
+:[K[K [KESCESC[KOO[KBB[Kwhoopsie  1808  0.0  0.0 390576 12664 ?        Ssl  10:19   0:00 /usr/bin/whoops :[K[K [KESCESC[KOO[KBB[Kie -f
+:[K[K [KESCESC[KOO[KBB[Kkernoops  1811  0.0  0.0  56940  2676 ?        Ss   10:19   0:00 /usr/sbin/kerne :[K[K [KESCESC[KOO[KBB[Kloops --test
+:[K[K [KESCESC[KOO[KBB[Kkernoops  1819  0.0  0.0  56940   424 ?        Ss   10:19   0:00 /usr/sbin/kerne :[K[K [KESCESC[KOO[KBB[Kloops
+:[K[K [KESCESC[KOO[KBB[Kroot      2451  0.0  0.0      0     0 ?        Z    10:20   0:00 [mount.ntfs] <d :[K[K [KESCESC[KOO[KBB[Kefunct>
+:[K[K [KESCESC[KOO[KBB[Kroot      2452  0.0  0.0      0     0 ?        Z    10:20   0:00 [mount.ntfs] <d :[K[K [KESCESC[KOO[KBB[Kefunct>
+:[K[K [KESCESC[KOO[KBB[Kroot      2458  0.0  0.0  24604  5456 ?        Ss   10:20   0:00 /sbin/mount.ntf :[K[K [KESCESC[KOO[KBB[Ks /dev/sda1 /media/linux/8094F0DF94F0D89C -o rw,nodev,nosuid,uid=1000,gid=1000,u :[K[K [KESCESC[KOO[KBB[Khelper=udisks2
+:[K[K [KESCESC[KOO[KBB[Kroot      2476  0.0  0.0  21900  2684 ?        Ss   10:20   0:00 /sbin/mount.ntf :[K[K [KESCESC[KOO[KBB[Ks /dev/sdd5 /media/linux/HDD -o rw,nodev,nosuid,uid=1000,gid=1000,uhelper=udisks :[K[K [KESCESC[KOO[KBB[K2
+:[K[K [KESCESC[KOO[KBB[Kroot      2478  0.0  0.0  21916  2420 ?        Ss   10:20   0:00 /sbin/mount.ntf :[K[K [KESCESC[KOO[KBB[Ks /dev/sdb5 /media/linux/SSHD -o rw,nodev,nosuid,uid=1000,gid=1000,uhelper=udisk :[K[K [KESCESC[KOO[KBB[Ks2
+:[K[K [KESCESC[KOO[KBB[Kroot      2598  0.0  0.0 267744  8432 ?        Sl   10:22   0:00 gdm-session-wor :[K[K [KESCESC[KOO[KBB[Kker [pam/gdm-password]
+:[K[K [KESCESC[KOO[KBB[Klinux     2601  0.0  0.0  77324  8596 ?        Ss   10:22   0:00 /lib/systemd/sy :[K[K [KESCESC[KOO[KBB[Kstemd --user
+:[K[K [KESCESC[KOO[KBB[Klinux     2602  0.0  0.0 261848  3000 ?        S    10:22   0:00 (sd-pam)
+:[K[K [KESCESC[KOO[KBB[Klinux     2615  0.0  0.0 288364  7480 ?        Sl   10:22   0:00 /usr/bin/gnome- :[K[K [KESCESC[KOO[KBB[Kkeyring-daemon --daemonize --login
+:[K[K [KESCESC[KOO[KBB[Klinux     2619  0.0  0.0 212132  6004 tty2     Ssl+ 10:22   0:00 /usr/lib/gdm3/g :[K[K [KESCESC[KOO[KBB[Kdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --se :[K[K [KESCESC[KOO[KBB[Kssion=ubuntu
+:[K[K [KESCESC[KOO[KBB[Klinux     2621 18.9  1.6 1870104 262916 tty2   Sl+  10:22  32:12 /usr/lib/xorg/X :[K[K [KESCESC[KOO[KBB[Korg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -nores :[K[K [KESCESC[KOO[KBB[Ket -keeptty -verbose 3
+:[K[K [KESCESC[KOO[KBB[Klinux     2658  0.0  0.0  51012  5576 ?        Ss   10:22   0:00 /usr/bin/dbus-d :[K[K [KESCESC[KOO[KBB[Kaemon --session --address=systemd: --nofork --nopidfile --systemd-activation --s :[K[K [KESCESC[KOO[KBB[Kyslog-only
+:[K[K [KESCESC[KOO[KBB[Klinux     2661  0.0  0.0 567696 14632 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksession/gnome-session-binary --session=ubuntu
+:[K[K [KESCESC[KOO[KBB[Klinux     2757  0.0  0.0  11300   320 ?        Ss   10:22   0:00 /usr/bin/ssh-ag :[K[K [KESCESC[KOO[KBB[Kent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --sessi :[K[K [KESCESC[KOO[KBB[Kon=ubuntu
+:[K[K [KESCESC[KOO[KBB[Klinux     2775  0.0  0.0 349296  5996 ?        Ssl  10:22   0:00 /usr/lib/at-spi :[K[K [KESCESC[KOO[KBB[K2-core/at-spi-bus-launcher
+:[K[K [KESCESC[KOO[KBB[Klinux     2780  0.0  0.0  50056  4136 ?        S    10:22   0:00 /usr/bin/dbus-d :[K[K [KESCESC[KOO[KBB[Kaemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --pr :[K[K [KESCESC[KOO[KBB[Kint-address 3
+:[K[K [KESCESC[KOO[KBB[Klinux     2782  0.0  0.0 220780  6880 ?        Sl   10:22   0:00 /usr/lib/at-spi :[K[K [KESCESC[KOO[KBB[K2-core/at-spi2-registryd --use-gnome-session
+:[K[K [KESCESC[KOO[KBB[Klinux     2832  151  2.8 6028896 468164 tty2   Rl+  10:22 256:24 /usr/bin/gnome- :[K[K [KESCESC[KOO[KBB[Kshell
+:[K[K [KESCESC[KOO[KBB[Klinux     2854  0.0  0.0 291972  7160 ?        Ssl  10:22   0:00 /usr/lib/gvfs/g :[K[K [KESCESC[KOO[KBB[Kvfsd
+:[K[K [KESCESC[KOO[KBB[Klinux     2859  0.0  0.0 416112  5404 ?        Sl   10:22   0:00 /usr/lib/gvfs/g :[K[K [KESCESC[KOO[KBB[Kvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+:[K[K [KESCESC[KOO[KBB[Klinux     2869  0.9  0.0 2065988 13480 ?       S<l  10:22   1:33 /usr/bin/pulsea :[K[K [KESCESC[KOO[KBB[Kudio --start --log-target=syslog
+:[K[K [KESCESC[KOO[KBB[Klinux     2898  0.0  0.0 361632  7664 tty2     Sl   10:22   0:05 ibus-daemon --x :[K[K [KESCESC[KOO[KBB[Kim --panel disable
+:[K[K [KESCESC[KOO[KBB[Klinux     2902  0.0  0.0 280752  6684 tty2     Sl   10:22   0:00 /usr/lib/ibus/i :[K[K [KESCESC[KOO[KBB[Kbus-dconf
+:[K[K [KESCESC[KOO[KBB[Klinux     2904  0.0  0.1 344004 21004 tty2     Sl   10:22   0:00 /usr/lib/ibus/i :[K[K [KESCESC[KOO[KBB[Kbus-x11 --kill-daemon
+:[K[K [KESCESC[KOO[KBB[Klinux     2906  0.0  0.0 278556  5968 ?        Sl   10:22   0:00 /usr/lib/ibus/i :[K[K [KESCESC[KOO[KBB[Kbus-portal
+:[K[K [KESCESC[KOO[KBB[Klinux     2914  0.0  0.0 271560  5020 ?        Ssl  10:22   0:00 /usr/libexec/xd :[K[K [KESCESC[KOO[KBB[Kg-permission-store
+:[K[K [KESCESC[KOO[KBB[Klinux     2921  0.0  0.1 689900 20896 ?        Sl   10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Kshell/gnome-shell-calendar-server
+:[K[K [KESCESC[KOO[KBB[Klinux     2925  0.0  0.1 1372164 26336 ?       Ssl  10:22   0:00 /usr/lib/evolut :[K[K [KESCESC[KOO[KBB[Kion/evolution-source-registry
+:[K[K [KESCESC[KOO[KBB[Klinux     2933  0.0  0.2 779572 33772 ?        SLl  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Konline-accounts/goa-daemon
+:[K[K [KESCESC[KOO[KBB[Klinux     2942  0.0  0.0 303360  7540 ?        Sl   10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Konline-accounts/goa-identity-service
+:[K[K [KESCESC[KOO[KBB[Klinux     2951  0.0  0.0 188024  5268 ?        Sl   10:22   0:00 /usr/lib/dconf/ :[K[K [KESCESC[KOO[KBB[Kdconf-service
+:[K[K [KESCESC[KOO[KBB[Klinux     2954  0.0  0.0 921104  9964 ?        Ssl  10:22   0:00 /usr/lib/gvfs/g :[K[K [KESCESC[KOO[KBB[Kvfs-udisks2-volume-monitor
+:[K[K [KESCESC[KOO[KBB[Klinux     2967  0.0  0.0 275992  5436 ?        Ssl  10:22   0:00 /usr/lib/gvfs/g :[K[K [KESCESC[KOO[KBB[Kvfs-mtp-volume-monitor
+:[K[K [KESCESC[KOO[KBB[Klinux     2971  0.0  0.0 378820  7616 ?        Ssl  10:22   0:00 /usr/lib/gvfs/g :[K[K [KESCESC[KOO[KBB[Kvfs-afc-volume-monitor
+:[K[K [KESCESC[KOO[KBB[Klinux     2976  0.0  0.0 288780  6044 ?        Ssl  10:22   0:00 /usr/lib/gvfs/g :[K[K [KESCESC[KOO[KBB[Kvfs-gphoto2-volume-monitor
+:[K[K [KESCESC[KOO[KBB[Klinux     2980  0.0  0.0 274044  5812 ?        Ssl  10:22   0:00 /usr/lib/gvfs/g :[K[K [KESCESC[KOO[KBB[Kvfs-goa-volume-monitor
+:[K[K [KESCESC[KOO[KBB[Klinux     2984  0.0  0.1 517248 22456 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-power
+:[K[K [KESCESC[KOO[KBB[Klinux     2986  0.0  0.0 349348 10144 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-print-notifications
+:[K[K [KESCESC[KOO[KBB[Klinux     2987  0.0  0.0 423344  5864 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-rfkill
+:[K[K [KESCESC[KOO[KBB[Klinux     2988  0.0  0.0 275732  5040 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-screensaver-proxy
+:[K[K [KESCESC[KOO[KBB[Klinux     2989  0.0  0.0 452844  9176 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-sharing
+:[K[K [KESCESC[KOO[KBB[Klinux     2994  0.0  0.0 332864  8068 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-sound
+:[K[K [KESCESC[KOO[KBB[Klinux     2998  0.0  0.1 494580 22040 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-xsettings
+:[K[K [KESCESC[KOO[KBB[Klinux     3002  0.0  0.1 428476 21084 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-wacom
+:[K[K [KESCESC[KOO[KBB[Klinux     3004  0.0  0.0 377936  7812 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-smartcard
+:[K[K [KESCESC[KOO[KBB[Klinux     3012  0.0  0.0 278156  5892 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-a11y-settings
+:[K[K [KESCESC[KOO[KBB[Klinux     3013  0.0  0.1 343620 20116 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-clipboard
+:[K[K [KESCESC[KOO[KBB[Klinux     3014  0.0  0.1 603572 22980 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-color
+:[K[K [KESCESC[KOO[KBB[Klinux     3016  0.0  0.0 469748 13740 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-datetime
+:[K[K [KESCESC[KOO[KBB[Klinux     3020  0.0  0.0 364452  7152 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-housekeeping
+:[K[K [KESCESC[KOO[KBB[Klinux     3025  0.0  0.1 506480 21128 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-keyboard
+:[K[K [KESCESC[KOO[KBB[Klinux     3027  0.0  0.1 1204648 23864 tty2    Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-media-keys
+:[K[K [KESCESC[KOO[KBB[Klinux     3033  0.0  0.0 278164  5988 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-mouse
+:[K[K [KESCESC[KOO[KBB[Klinux     3068  0.0  0.0 508768 12620 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Ksettings-daemon/gsd-printer
+:[K[K [KESCESC[KOO[KBB[Klinux     3077  0.0  0.0 271932  6724 tty2     Sl+  10:22   0:00 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Kdisk-utility/gsd-disk-utility-notify
+:[K[K [KESCESC[KOO[KBB[Klinux     3078  0.0  0.4 965276 79404 tty2     Sl+  10:22   0:00 nautilus-deskto :[K[K [KESCESC[KOO[KBB[Kp
+:[K[K [KESCESC[KOO[KBB[Klinux     3104  0.0  0.0 368244  7252 ?        Sl   10:22   0:00 /usr/lib/gvfs/g :[K[K [KESCESC[KOO[KBB[Kvfsd-trash --spawner :1.22 /org/gtk/gvfs/exec_spaw/0
+:[K[K [KESCESC[KOO[KBB[Klinux     3118  0.0  0.4 892072 67668 ?        Ssl  10:22   0:00 /usr/lib/evolut :[K[K [KESCESC[KOO[KBB[Kion/evolution-calendar-factory
+:[K[K [KESCESC[KOO[KBB[Klinux     3131  0.0  0.3 1136008 62480 ?       Sl   10:22   0:00 /usr/lib/evolut :[K[K [KESCESC[KOO[KBB[Kion/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evo :[K[K [KESCESC[KOO[KBB[Klution.dataserver.Subprocess.Backend.Calendarx3118x2 --own-path /org/gnome/evolu :[K[K [KESCESC[KOO[KBB[Ktion/dataserver/Subprocess/Backend/Calendar/3118/2
+:[K[K [KESCESC[KOO[KBB[Klinux     3133  0.0  0.0 204884  6724 tty2     Sl   10:22   0:01 /usr/lib/ibus/i :[K[K [KESCESC[KOO[KBB[Kbus-engine-simple
+:[K[K [KESCESC[KOO[KBB[Klinux     3149  0.0  0.1 732696 24332 ?        Ssl  10:22   0:00 /usr/lib/evolut :[K[K [KESCESC[KOO[KBB[Kion/evolution-addressbook-factory
+:[K[K [KESCESC[KOO[KBB[Klinux     3156  0.0  0.1 1017200 26984 ?       Sl   10:22   0:00 /usr/lib/evolut :[K[K [KESCESC[KOO[KBB[Kion/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome. :[K[K [KESCESC[KOO[KBB[Kevolution.dataserver.Subprocess.Backend.AddressBookx3149x2 --own-path /org/gnome :[K[K [KESCESC[KOO[KBB[K/evolution/dataserver/Subprocess/Backend/AddressBook/3149/2
+:[K[K [KESCESC[KOO[KBB[Klinux     3175  0.0  0.0 204480  5708 ?        Ssl  10:22   0:00 /usr/lib/gvfs/g :[K[K [KESCESC[KOO[KBB[Kvfsd-metadata
+:[K[K [KESCESC[KOO[KBB[Klinux     3186  0.1  0.2 809328 42848 ?        Ssl  10:22   0:17 /usr/lib/gnome- :[K[K [KESCESC[KOO[KBB[Kterminal/gnome-terminal-server
+:[K[K [KESCESC[KOO[KBB[Klinux     3195  0.0  0.0  29812  5372 pts/0    Ss   10:22   0:00 bash
+:[K[K [KESCESC[KOO[KBB[Klinux     3212  0.0  0.0  29940  5352 pts/1    Ss   10:22   0:00 bash
+:[K[K [KESCESC[KOO[KBB[Klinux     3244  0.0  0.0  29940  5484 pts/3    Ss   10:22   0:00 bash
+:[K[K [KESCESC[KOO[KBB[Klinux     3270  0.0  0.0  31392  4984 pts/0    S+   10:23   0:00 nano shell.cpp
+:[K[K [KESCESC[KOO[KBB[Klinux     3275  0.0  0.0  31652  5356 pts/1    S+   10:23   0:00 nano commandLis :[K[K [KESCESC[KOO[KBB[Kt.cpp
+:[K[K [KESCESC[KOO[KBB[Klinux     3281  0.0  0.1 594060 25144 tty2     Sl+  10:23   0:00 update-notifier
+:[K[K [KESCESC[KOO[KBB[Klinux     3284  0.0  1.0 1278828 164568 tty2   SLl+ 10:23   0:02 /usr/bin/gnome- :[K[K [KESCESC[KOO[KBB[Ksoftware --gapplication-service
+:[K[K [KESCESC[KOO[KBB[Klinux     3377  0.0  0.2 793032 33000 tty2     Sl+  10:24   0:00 /usr/lib/deja-d :[K[K [KESCESC[KOO[KBB[Kup/deja-dup-monitor
+:[K[K [KESCESC[KOO[KBB[Kroot      3579  0.0  0.0 109824 10440 ?        Ss   10:24   0:00 /usr/sbin/cupsd :[K[K [KESCESC[KOO[KBB[K -l
+:[K[K [KESCESC[KOO[KBB[Kroot      3580  0.0  0.0 303672 10772 ?        Ssl  10:24   0:00 /usr/sbin/cups- :[K[K [KESCESC[KOO[KBB[Kbrowsed
+:[K[K [KESCESC[KOO[KBB[Klinux     3640  1.1  1.6 1192656 273436 tty2   SLl+ 10:25   1:49 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome
+:[K[K [KESCESC[KOO[KBB[Klinux     3647  0.0  0.0  14712   788 tty2     S+   10:25   0:00 cat
+:[K[K [KESCESC[KOO[KBB[Klinux     3648  0.0  0.0  14712   744 tty2     S+   10:25   0:00 cat
+:[K[K [KESCESC[KOO[KBB[Klinux     3651  0.0  0.3 455060 59732 tty2     S+   10:25   0:00 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=zygote --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a54 :[K[K [KESCESC[KOO[KBB[K9eecd,
+:[K[K [KESCESC[KOO[KBB[Klinux     3652  0.0  0.0  27220  4132 tty2     S+   10:25   0:00 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/nacl_helper
+:[K[K [KESCESC[KOO[KBB[Klinux     3655  0.0  0.0 455060 15848 tty2     S+   10:25   0:00 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=zygote --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a54 :[K[K [KESCESC[KOO[KBB[K9eecd,
+:[K[K [KESCESC[KOO[KBB[Klinux     3678  0.6  0.6 571292 98724 tty2     SLl+ 10:25   1:00 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=utility --field-trial-handle=7672013339080884895,1020352732988 :[K[K [KESCESC[KOO[KBB[K1318770,131072 --lang=en-US --service-sandbox-type=network --disable-webrtc-apm- :[K[K [KESCESC[KOO[KBB[Kin-audio-service --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, - :[K[K [KESCESC[KOO[KBB[K-shared-files
+:[K[K [KESCESC[KOO[KBB[Klinux     3710 31.3  1.0 583092 165956 tty2    Sl+  10:25  52:12 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=gpu-process --field-trial-handle=7672013339080884895,102035273 :[K[K [KESCESC[KOO[KBB[K29881318770,131072 --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, :[K[K [KESCESC[KOO[KBB[K --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAA :[K[K [KESCESC[KOO[KBB[KAAA --use-gl=swiftshader-webgl --shared-files
+:[K[K [KESCESC[KOO[KBB[Klinux     3712  0.0  0.0 419944 14488 tty2     S+   10:25   0:00 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=broker
+:[K[K [KESCESC[KOO[KBB[Klinux     3774  0.1  1.2 4935088 204156 tty2   Sl+  10:25   0:14 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-h :[K[K [KESCESC[KOO[KBB[Kandle=7672013339080884895,10203527329881318770,131072 --disable-gpu-compositing  :[K[K [KESCESC[KOO[KBB[K--lang=en-US --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, --ext :[K[K [KESCESC[KOO[KBB[Kension-process --enable-auto-reload --num-raster-threads=4 --enable-main-frame-b :[K[K [KESCESC[KOO[KBB[Kefore-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --sha :[K[K [KESCESC[KOO[KBB[Kred-files
+:[K[K [KESCESC[KOO[KBB[Klinux     3876  2.1  1.8 5139348 308292 tty2   Sl+  10:25   3:31 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-h :[K[K [KESCESC[KOO[KBB[Kandle=7672013339080884895,10203527329881318770,131072 --disable-gpu-compositing  :[K[K [KESCESC[KOO[KBB[K--lang=en-US --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, --ena :[K[K [KESCESC[KOO[KBB[Kble-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --r :[K[K [KESCESC[KOO[KBB[Kenderer-client-id=14 --no-v8-untrusted-code-mitigations --shared-files
+:[K[K [KESCESC[KOO[KBB[Klinux     4177  0.2  1.0 4892848 169776 tty2   Sl+  10:26   0:25 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-h :[K[K [KESCESC[KOO[KBB[Kandle=7672013339080884895,10203527329881318770,131072 --disable-gpu-compositing  :[K[K [KESCESC[KOO[KBB[K--lang=en-US --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, --ena :[K[K [KESCESC[KOO[KBB[Kble-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --r :[K[K [KESCESC[KOO[KBB[Kenderer-client-id=18 --no-v8-untrusted-code-mitigations --shared-files
+:[K[K [KESCESC[KOO[KBB[Klinux     4253  0.0  0.5 4804880 84996 tty2    Sl+  10:26   0:00 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-h :[K[K [KESCESC[KOO[KBB[Kandle=7672013339080884895,10203527329881318770,131072 --disable-gpu-compositing  :[K[K [KESCESC[KOO[KBB[K--lang=en-US --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, --ena :[K[K [KESCESC[KOO[KBB[Kble-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --r :[K[K [KESCESC[KOO[KBB[Kenderer-client-id=13 --no-v8-untrusted-code-mitigations --shared-files
+:[K[K [KESCESC[KOO[KBB[Klinux     4257  0.0  0.6 4823816 103032 tty2   Sl+  10:26   0:00 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-h :[K[K [KESCESC[KOO[KBB[Kandle=7672013339080884895,10203527329881318770,131072 --disable-gpu-compositing  :[K[K [KESCESC[KOO[KBB[K--lang=en-US --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, --ena :[K[K [KESCESC[KOO[KBB[Kble-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --r :[K[K [KESCESC[KOO[KBB[Kenderer-client-id=12 --no-v8-untrusted-code-mitigations --shared-files
+:[K[K [KESCESC[KOO[KBB[Klinux     4294  0.0  0.8 4861268 141480 tty2   Sl+  10:26   0:05 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-h :[K[K [KESCESC[KOO[KBB[Kandle=7672013339080884895,10203527329881318770,131072 --disable-gpu-compositing  :[K[K [KESCESC[KOO[KBB[K--lang=en-US --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, --ext :[K[K [KESCESC[KOO[KBB[Kension-process --enable-auto-reload --num-raster-threads=4 --enable-main-frame-b :[K[K [KESCESC[KOO[KBB[Kefore-activation --renderer-client-id=19 --no-v8-untrusted-code-mitigations --sh :[K[K [KESCESC[KOO[KBB[Kared-files
+:[K[K [KESCESC[KOO[KBB[Klinux     4316  0.0  0.3 4715076 56256 tty2    Sl+  10:26   0:00 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=ppapi --field-trial-handle=7672013339080884895,102035273298813 :[K[K [KESCESC[KOO[KBB[K18770,131072 --ppapi-flash-args --lang=en-US --enable-crash-reporter=543d79e5-f5 :[K[K [KESCESC[KOO[KBB[K48-4d65-aea4-e255a549eecd, --shared-files
+:[K[K [KESCESC[KOO[KBB[Klinux     4336  0.3  1.3 4941676 214312 tty2   Sl+  10:26   0:33 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-h :[K[K [KESCESC[KOO[KBB[Kandle=7672013339080884895,10203527329881318770,131072 --disable-gpu-compositing  :[K[K [KESCESC[KOO[KBB[K--lang=en-US --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, --ena :[K[K [KESCESC[KOO[KBB[Kble-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --r :[K[K [KESCESC[KOO[KBB[Kenderer-client-id=23 --no-v8-untrusted-code-mitigations --shared-files
+:[K[K [KESCESC[KOO[KBB[Klinux     4643  1.8  1.1 4960912 190596 tty2   Sl+  10:28   2:59 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-h :[K[K [KESCESC[KOO[KBB[Kandle=7672013339080884895,10203527329881318770,131072 --disable-gpu-compositing  :[K[K [KESCESC[KOO[KBB[K--lang=en-US --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, --ena :[K[K [KESCESC[KOO[KBB[Kble-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --r :[K[K [KESCESC[KOO[KBB[Kenderer-client-id=32 --no-v8-untrusted-code-mitigations --shared-files
+:[K[K [KESCESC[KOO[KBB[Kroot     25365  0.0  0.0      0     0 ?        I    11:09   0:02 [kworker/4:0-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     25421  0.0  0.0      0     0 ?        I    11:10   0:02 [kworker/10:2-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Kroot     25521  0.0  0.0      0     0 ?        I    11:11   0:02 [kworker/6:0-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     25553  0.0  0.0      0     0 ?        I    11:11   0:03 [kworker/0:1-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     25839  0.0  0.0      0     0 ?        I    11:16   0:02 [kworker/14:0-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Klinux    25903  0.4  1.2 4957296 205804 tty2   Sl+  11:17   0:31 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-h :[K[K [KESCESC[KOO[KBB[Kandle=7672013339080884895,10203527329881318770,131072 --disable-gpu-compositing  :[K[K [KESCESC[KOO[KBB[K--lang=en-US --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, --ena :[K[K [KESCESC[KOO[KBB[Kble-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --r :[K[K [KESCESC[KOO[KBB[Kenderer-client-id=108 --no-v8-untrusted-code-mitigations --shared-files
+:[K[K [KESCESC[KOO[KBB[Klinux    25951  0.0  0.5 4803852 89148 tty2    Sl+  11:17   0:00 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-h :[K[K [KESCESC[KOO[KBB[Kandle=7672013339080884895,10203527329881318770,131072 --disable-gpu-compositing  :[K[K [KESCESC[KOO[KBB[K--lang=en-US --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, --ena :[K[K [KESCESC[KOO[KBB[Kble-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --r :[K[K [KESCESC[KOO[KBB[Kenderer-client-id=111 --no-v8-untrusted-code-mitigations --shared-files
+:[K[K [KESCESC[KOO[KBB[Kroot     26036  0.0  0.0      0     0 ?        I    11:17   0:02 [kworker/1:0-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     26049  0.0  0.0      0     0 ?        I    11:17   0:02 [kworker/11:1-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Klinux    26138 27.1  2.6 5237708 442856 tty2   Sl+  11:17  30:56 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-h :[K[K [KESCESC[KOO[KBB[Kandle=7672013339080884895,10203527329881318770,131072 --disable-gpu-compositing  :[K[K [KESCESC[KOO[KBB[K--lang=en-US --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, --ena :[K[K [KESCESC[KOO[KBB[Kble-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --r :[K[K [KESCESC[KOO[KBB[Kenderer-client-id=123 --no-v8-untrusted-code-mitigations --shared-files
+:[K[K [KESCESC[KOO[KBB[Kroot     26447  0.0  0.0      0     0 ?        I    11:26   0:00 [kworker/8:1-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Klinux    26675  0.4  0.3 771608 55300 tty2     Sl+  11:48   0:24 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=utility --field-trial-handle=7672013339080884895,1020352732988 :[K[K [KESCESC[KOO[KBB[K1318770,131072 --lang=en-US --service-sandbox-type=audio --disable-webrtc-apm-in :[K[K [KESCESC[KOO[KBB[K-audio-service --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, --s :[K[K [KESCESC[KOO[KBB[Khared-files
+:[K[K [KESCESC[KOO[KBB[Kroot     26775  0.0  0.0      0     0 ?        I    11:50   0:02 [kworker/13:3-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Kroot     26794  0.0  0.0      0     0 ?        I    11:50   0:01 [kworker/12:2-r :[K[K [KESCESC[KOO[KBB[Kc]
+:[K[K [KESCESC[KOO[KBB[Kroot     26796  0.0  0.0      0     0 ?        I    11:50   0:00 [kworker/11:2-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Kroot     26797  0.0  0.0      0     0 ?        I    11:50   0:02 [kworker/8:0-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     26900  0.0  0.0      0     0 ?        I    11:50   0:00 [kworker/0:2-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     27068  0.1  0.0      0     0 ?        I    12:04   0:04 [kworker/u64:3- :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     27087  0.0  0.0      0     0 ?        I    11:04   0:04 [kworker/3:0-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     27107  0.0  0.0      0     0 ?        I    11:04   0:02 [kworker/7:0-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     27227  0.0  0.0      0     0 ?        I    12:22   0:02 [kworker/u64:1- :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     27234  0.0  0.0      0     0 ?        I    12:22   0:00 [kworker/3:4-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     27290  0.0  0.0      0     0 ?        I    12:23   0:01 [kworker/5:0-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     27312  0.0  0.0  25988  6404 ?        S    12:23   0:00 /sbin/dhclient  :[K[K [KESCESC[KOO[KBB[K-d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-wlx0836c92fec :[K[K [KESCESC[KOO[KBB[K08.pid -lf /var/lib/NetworkManager/dhclient-c8e3b70b-81a4-4cef-8a07-a0c4136a6d94 :[K[K [KESCESC[KOO[KBB[K-wlx0836c92fec08.lease -cf /var/lib/NetworkManager/dhclient-wlx0836c92fec08.conf :[K[K [KESCESC[KOO[KBB[K wlx0836c92fec08
+:[K[K [KESCESC[KOO[KBB[Kroot     27387  0.0  0.0      0     0 ?        I    12:23   0:01 [kworker/15:2-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Kroot     27444  0.0  0.0      0     0 ?        I    12:24   0:00 [kworker/10:0-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Kroot     27445  0.0  0.0      0     0 ?        I    12:24   0:00 [kworker/7:1-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     27603  0.0  0.0      0     0 ?        I    12:28   0:00 [kworker/14:2-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Kroot     27681  0.0  0.0      0     0 ?        I    12:35   0:02 [kworker/u64:0- :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     27817  0.0  0.0      0     0 ?        I    12:49   0:00 [kworker/12:0-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Kroot     27820  0.0  0.0      0     0 ?        I    12:49   0:00 [kworker/1:1-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     27917  0.0  0.0      0     0 ?        I    12:56   0:00 [kworker/6:1-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     27953  0.0  0.0      0     0 ?        I    12:57   0:00 [kworker/9:2-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     27984  0.0  0.0      0     0 ?        I    12:57   0:00 [kworker/2:1-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     28008  0.0  0.0      0     0 ?        I    12:57   0:00 [kworker/13:0-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Kroot     28043  0.0  0.0      0     0 ?        I    12:58   0:00 [kworker/4:1-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     28146  0.0  0.0      0     0 ?        I    13:02   0:00 [kworker/5:1-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     28147  0.0  0.0      0     0 ?        I    13:02   0:00 [kworker/15:1-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Kroot     28153  0.0  0.0      0     0 ?        I    13:02   0:00 [kworker/9:1-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     28212  0.0  0.0      0     0 ?        I    13:04   0:00 [kworker/2:0-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     28278  0.0  0.0      0     0 ?        I    13:07   0:00 [kworker/9:0-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     28303  0.0  0.0      0     0 ?        I    13:07   0:00 [kworker/14:1-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Kroot     28329  0.1  0.0      0     0 ?        I    13:08   0:00 [kworker/u64:2- :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     28375  0.0  0.0      0     0 ?        I    13:08   0:00 [kworker/15:0-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Kroot     28430  0.0  0.0      0     0 ?        I    13:09   0:00 [kworker/10:1-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Klinux    28431  1.1  0.8 4854348 133516 tty2   Sl+  13:09   0:01 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-h :[K[K [KESCESC[KOO[KBB[Kandle=7672013339080884895,10203527329881318770,131072 --disable-gpu-compositing  :[K[K [KESCESC[KOO[KBB[K--lang=en-US --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, --ena :[K[K [KESCESC[KOO[KBB[Kble-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --r :[K[K [KESCESC[KOO[KBB[Kenderer-client-id=157 --no-v8-untrusted-code-mitigations --shared-files
+:[K[K [KESCESC[KOO[KBB[Kroot     28445  0.0  0.0      0     0 ?        I    13:09   0:00 [kworker/8:2-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Klinux    28446  0.0  0.3 4809184 55532 tty2    Sl+  13:09   0:00 /opt/google/chr :[K[K [KESCESC[KOO[KBB[Kome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-h :[K[K [KESCESC[KOO[KBB[Kandle=7672013339080884895,10203527329881318770,131072 --disable-gpu-compositing  :[K[K [KESCESC[KOO[KBB[K--lang=en-US --enable-crash-reporter=543d79e5-f548-4d65-aea4-e255a549eecd, --ena :[K[K [KESCESC[KOO[KBB[Kble-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --r :[K[K [KESCESC[KOO[KBB[Kenderer-client-id=158 --no-v8-untrusted-code-mitigations --shared-files
+:[K[K [KESCESC[KOO[KBB[Kroot     28467  0.0  0.0      0     0 ?        I    13:09   0:00 [kworker/3:1-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     28519  0.0  0.0      0     0 ?        I    13:09   0:00 [kworker/11:0-e :[K[K [KESCESC[KOO[KBB[Kv]
+:[K[K [KESCESC[KOO[KBB[Kroot     28659  0.0  0.0      0     0 ?        I    13:11   0:00 [kworker/7:2-ev :[K[K [KESCESC[KOO[KBB[Ke]
+:[K[K [KESCESC[KOO[KBB[Kroot     28660  0.0  0.0      0     0 ?        I    13:11   0:00 [kworker/u64:4]
+:[K[K [KESCESC[KOO[KBB[Klinux    28664  0.0  0.0  29348  2632 pts/3    S+   13:11   0:00 script
+:[K[K [KESCESC[KOO[KBB[Klinux    28665  0.0  0.0  29816  4924 pts/2    Ss   13:11   0:00 bash -i
+:[K[K [KESCESC[KOO[KBB[Klinux    28673  0.0  0.0  14012  1792 pts/2    S+   13:11   0:00 ./shell
+:[K[K [KESCESC[KOO[KBB[Klinux    28681  0.0  0.0  46768  3752 pts/2    R+   13:11   0:00 ps -aux
+:[K[K [KESCESC[KOO[KBB[K[K:[K
+]0;linux@myLinuxMachine: ~/Desktop/OS_Class/A4[01;32mlinux@myLinuxMachine[00m:[01;34m~/Desktop/OS_Class/A4[00m$ [Kx[Kexit
+exit
+
+Script done on 2020-03-28 13:12:22-0500

@@ -1,0 +1,16 @@
+C++
+
+compile c++ code:
+g++ yourcpp.cpp -o yourexe
+
+running code:
+./yourexe
+
+-----------------------------------
+Java
+
+compile java code:
+javac yourfile.java
+
+run java file:
+java yourfile.class

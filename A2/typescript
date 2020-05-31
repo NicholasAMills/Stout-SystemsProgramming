@@ -1,0 +1,40 @@
+Script started on 2020-02-13 15:48:43-0600
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A2[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A2[00m$ g++ A2.cpp -o A2
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A2[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A2[00m$ ./A2
+Enter a sentence
+This is a sentence
+This
+is
+a
+sentence
+
+To c_string
+This
+is
+a
+sentence
+NULL
+Enter a token to search for: This
+Vector: FOUND
+String: FOUND
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A2[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A2[00m$ ./A2
+Enter a sentence
+This is a sentence
+This
+is
+a
+sentence
+
+To c_string
+This
+is
+a
+sentence
+NULL
+Enter a token to search for: no
+Vector: NOT FOUND
+String: NOT FOUND
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A2[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A2[00m$ exit
+exit
+
+Script done on 2020-02-13 15:49:20-0600

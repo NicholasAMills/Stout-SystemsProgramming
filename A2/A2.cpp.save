@@ -1,0 +1,68 @@
+/*
+Author: Nicholas Mills
+Class: CS 442
+Date completed: Feb , 2020
+
+Desc: User will enter a string which will then be split into a vector. The vector will then be 
+converted into a c_string. Finally, the function contains(string str) will return True or False depending
+if the argument str is within the vector
+
+references:
+https://www.geeksforgeeks.org/split-a-sentence-into-words-in-cpp/
+http://www.cplusplus.com/reference/string/string/c_str/
+*/
+
+#include <iostream>
+#include <string>
+#include <vector>
+#include <cstring>
+
+using namespace std;
+
+/*
+   
+*/
+vector<string> splitSentence(string str)
+{
+   vector<string> myVec;
+   string word = "";
+   for (auto x : str)
+   {
+       if (x == ' ')
+       {
+	   myVec.push_back(word);
+           //cout << word << endl;
+           word = "";
+       }
+       else
+       {
+           word = word + x;
+       }
+   }
+   myVec.push_back(word);
+   return myVec;
+} //end splitSentence
+
+int main(){
+string s1;
+vector<string> myVector;
+
+cout << "Enter a sentence" << endl;
+getline(cin, s1);
+
+vector<string> myStringTokens = splitSentence(s1);
+
+for (int i=0; i < myStringTokens.size(); ++i)
+   cout << myStringTokens.at(i) << endl;
+
+
+int length = myStringTokens.size() + 1;
+char* c_string[length];
+c_stri
+
+// char* C_stringVariable=(char*)cppStr.c_str(); // string to c_string
+
+//cout << "output: " << c_stringVariable << endl;
+
+return 0;
+} // end main

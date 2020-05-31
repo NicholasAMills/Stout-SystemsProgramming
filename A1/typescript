@@ -1,0 +1,58 @@
+Script started on 2020-02-03 13:48:09-0600
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A1/C++[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A1/C++[00m$ g++ A1.cpp -o A1
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A1/C++[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A1/C++[00m$ ./A1
+Enter your first string
+This is a string
+Enter your second string
+string
+s1: This is a string
+s2: string
+FOUND
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A1/C++[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A1/C++[00m$ ./A1
+Enter your first string
+This is a string
+Enter your second string
+no
+s1: This is a string
+s2: no
+NOT FOUND
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A1/C++[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A1/C++[00m$ cd ..
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A1[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A1[00m$ cd Java/
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A1/Java[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A1/Java[00m$ javac A1.java 
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A1/Java[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A1/Java[00m$ java A1 
+Enter your test string
+This is a java string
+
+Enter another string and I'll tell you if it's inside your first string
+java
+FOUND
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A1/Java[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A1/Java[00m$ java A1 
+Enter your test string
+This is a java string
+
+Enter another string and I'll tell you if it's inside your first string
+nope
+NOT FOUND
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A1/Java[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A1/Java[00m$ cd ..
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A1[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A1[00m$ cd C
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A1/C[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A1/C[00m$ gcc A1.c -o A1.out
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A1/C[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A1/C[00m$ ./A1.out 
+Enter your first sentence (at max 20 characters)
+This is a C string
+s1: This is a C string 
+Enter search query
+is
+s2: is 
+FOUND
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A1/C[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A1/C[00m$ ./A1.out 
+Enter your first sentence (at max 20 characters)
+This is a C string
+s1: This is a C string 
+Enter search query
+no
+s2: no 
+NOT FOUND
+]0;linux@linux-VirtualBox: ~/Desktop/OS_Class/A1/C[01;32mlinux@linux-VirtualBox[00m:[01;34m~/Desktop/OS_Class/A1/C[00m$ exit
+exit
+
+Script done on 2020-02-03 13:50:55-0600
